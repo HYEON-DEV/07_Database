@@ -1,3 +1,11 @@
+ 
+ mysql.exe 실행
+ mysql : MySQL 클라이언트 프로그램 호출. MySQL 서버에 접속
+ 
+ ```
+ mysql -uroot -p
+ 123qwe!@#
+```
  ```
  show databases;
 
@@ -192,6 +200,11 @@ SELECT studno, name, deptno FROM student WHERE grade=1;
 | 박동진 |  20102 |     1 |     70 |    201 |
 +--------+--------+-------+--------+--------+
 ```
+
+
+
+
+
 
 #### 연습문제 1
 ```
