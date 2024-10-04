@@ -1,7 +1,8 @@
  
  mysql.exe 실행
  mysql : MySQL 클라이언트 프로그램 호출. MySQL 서버에 접속
- 
+
+
  ```
  mysql -uroot -p
  123qwe!@#
