@@ -186,10 +186,6 @@ and height > ( select height from student where studno = 20101 );
 ```sql
 select studno, dname, grade, name from student s 
 inner join department d on s.deptno = d.deptno
-where dname in ( select dname from department where dname like '%공학%' );
-
-select studno, dname, grade, name from student s 
-inner join department d on s.deptno = d.deptno
 where s.deptno in ( select deptno from department where dname like '%공학%' );
 
 +--------+--------------+-------+--------+
